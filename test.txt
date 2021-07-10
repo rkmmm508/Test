@@ -1,0 +1,20 @@
+@Repository
+It is a Data Access Object (DAO) that accesses the database directly. It indicates that the annotated class is a repository. 
+
+Example:
+
+@Repository
+
+public class TestRepository
+
+{
+
+public void delete()
+
+{
+
+// persistence code
+
+}
+
+}
